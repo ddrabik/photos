@@ -10,14 +10,17 @@
 .photoList {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.photo-item {
+.photoItem {
   height: 40vh;
   flex-grow: 1;
 }
 
-.photo-item:last-child {
+.photoItem:last-child {
   flex-grow: 10;
 }
 
