@@ -18,6 +18,11 @@
 .photoItem {
   height: 40vh;
   flex-grow: 1;
+  opacity: 0.4;
+}
+
+.photoItem:hover {
+  opacity: 1;
 }
 
 .photoItem:last-child {
