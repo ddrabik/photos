@@ -18,11 +18,18 @@
 .photoItem {
   height: 40vh;
   flex-grow: 1;
-  opacity: 0.4;
 }
 
-.photoItem:hover {
-  opacity: 1;
+/* add some effects for desktop users so photos don't distract from each other
+/* https://css-tricks.com/interaction-media-features-and-their-potential-for-incorrect-assumptions/ */
+@media (any-hover: hover) {
+  .photoItem {
+    opacity: 0.4;
+  }
+
+  .photoItem:hover {
+    opacity: 1;
+  }
 }
 
 .photoItem:last-child {
