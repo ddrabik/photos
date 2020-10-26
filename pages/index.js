@@ -61,8 +61,8 @@ export default function Home() {
           </li>
           <li className={styles.photoItem}>
             <picture>
-              <source type="image/webp" srcSet="joshua_tree.webp" />
-              <source type="image/jpeg" srcSet="joshua_tree.jpeg" />
+              <source type="image/webp" srcSet="images/joshua_tree.webp" />
+              <source type="image/jpeg" srcSet="images/joshua_tree.jpeg" />
               <img
                 className={styles.img}
                 src="images/joshua_tree.jpeg"
@@ -93,8 +93,8 @@ export default function Home() {
           </li>
           <li className={styles.photoItem}>
             <picture>
-              <source type="image/webp" srcSet="tenaya_lake.webp" />
-              <source type="image/jpeg" srcSet="tenaya_lake.jpeg" />
+              <source type="image/webp" srcSet="images/tenaya_lake.webp" />
+              <source type="image/jpeg" srcSet="images/tenaya_lake.jpeg" />
               <img className={styles.img} src="images/tenaya_lake.jpeg" />
             </picture>
           </li>
