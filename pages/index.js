@@ -128,13 +128,9 @@ export default function Home() {
           </li>
           <li className={styles.photoItem}>
             <picture>
-              <source type="image/webp" srcSet="gecko_peeking.webp" />
-              <source type="image/jpeg" srcSet="gecko_peeking.jpg" />
-              <img
-                className={styles.img}
-                src="images/gecko_peeking.jpg"
-                alt=""
-              />
+              <source type="image/webp" srcSet="images/gecko_peeking.webp" />
+              <source type="image/jpeg" srcSet="images/gecko_peeking.jpg" />
+              <img className={styles.img} src="images/gecko_peeking.jpg" />
             </picture>
           </li>
           <li className={styles.photoItem}>
