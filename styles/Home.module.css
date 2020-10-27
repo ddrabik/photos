@@ -24,7 +24,7 @@
 /* https://css-tricks.com/interaction-media-features-and-their-potential-for-incorrect-assumptions/ */
 @media (any-hover: hover) {
   .photoItem {
-    opacity: 0.4;
+    opacity: 0.65;
   }
 
   .photoItem:hover {
