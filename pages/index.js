@@ -30,6 +30,11 @@ export default function Home() {
     "ocean",
     "woodpecker",
     "western_tanager",
+    "hawk",
+    "ivy_pumkins",
+    "jay",
+    "lassen",
+    "taco",
   ];
 
   shuffleArray(images);
